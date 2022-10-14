@@ -1,0 +1,29 @@
+.component-place-order {}
+
+.styled-table-place {
+    border-collapse: collapse;
+    //margin: 25px 0;
+    align-items: center;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-top: 50px;
+}
+
+.styled-table-place thead tr {
+    background-color: #434647;
+    color: #ffffff;
+}
+
+.styled-table-place tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table-place tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+button {
+    border-radius: 20px;
+}
